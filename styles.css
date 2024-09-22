@@ -1,0 +1,160 @@
+body {
+    font-family:"游ゴシック","Yu Gothic","游ゴシック体","YuGothic";
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: darkgray;
+    color: black;
+    padding: 1px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0 0px;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1px 1px;
+}
+
+nav ul li a:hover {
+    background: #444;
+    border-radius: 5px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.service {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+.font {
+    -webkit-text-stroke: 0.5px black;
+}
+
+.font {
+    font-size:large;
+}
+
+.font {
+    font-family: system-ui;
+}
+
+.large {
+    font-family: system-ui;
+}
+
+.large {
+    font-size:xx-large
+}
+
+.Red {
+    color: red;
+}
+
+.Blue {
+    color: blue;
+}
+
+.Green {
+    color: green;
+}
+
+.Yellow {
+    color: yellow;
+}
+
+.Purple {
+    color: purple;
+}
+
+.White {
+    color: white;
+}
+
+.Black {
+    color: black;
+}
+
+.ani {
+    transition: background-color 0.5s ease;
+}
+
+.ani:hover {
+    background-color: #4b4b4b;
+}
+
+.custom-link {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #1e90ff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-link:hover {
+    background-color: #1e90ff;
+    color: #ffffff;
+}

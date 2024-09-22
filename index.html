@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0jnmh">
+    <title>おもちサーバーのすとあ</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <h1><div class="large">おもちサーバーのすとあβ1.2</div></h1>
+        </div>
+    </header>
+</body>
+    <div class="container">
+        <h2>目次</h2>
+      <div class="service">
+          <nav>
+            <ul>
+             <div class="font">
+                <p><li><a href="#home">ホーム</a></li></p>
+                <p><li><a href="#rank">RANKを購入する</a></li></p>
+                <p><li><a href="#orank">購入できないRANK</a></li></p>
+                <p><li><a href="https://www.0mochiserver.net" class="custom-link">おもちサーバー</a></li></p>
+             </ul>
+          </nav>
+      </div>
+    <section id="rank">
+        <div class="container">
+            <div class="font">
+            <h2>RANKを購入する</h2>
+            <div class="service">
+            <p><img src="PLUS.png"><a>・・・3.99$　<a href="https://discord.gg/gM8eWhsBHJ" class="custom-link" target="_blank">PLUS RANK購入</a></p>
+            <p><img src="SUPER.png"><a>・・・5.99$　<a href="https://discord.gg/gM8eWhsBHJ" class="custom-link" target="_blank">SUPER RANK購入</a></p>
+            <p><img src="DELUXE.png"><a>・・・7.99$　<a href="https://discord.gg/gM8eWhsBHJ" class="custom-link" target="_blank">DELUXE RANK購入</a></p>
+            <p><img src="PREMIUM.png"><a>・・・9.99$　<a href="https://discord.gg/gM8eWhsBHJ" class="custom-link" target="_blank">PREMIUM RANK購入</a></p>
+            <p><img src="ULTIMATE.png"><a>・・・13.99$　<a href="https://discord.gg/gM8eWhsBHJ" class="custom-link" target="_blank">ULTIMATE RANK購入</a></p>
+            <p><img src="SERVERBOOSTER.png"><a>・・・　<a href="https://discord.gg/gM8eWhsBHJ" class="custom-link" target="_blank">Discordサーバーからサーバーブーストができます</a></p>
+        </div>
+    </section>
+    <section id="orank">
+        <div class="container">
+            <h2>こちらのRANKは積み立てRANKであり、購入することはできません。</h2>
+            <div class="service">
+            <p><img src="STONE.png"></p>
+            <p><img src="COAL.png"></p>
+            <p><img src="COPPER.png"></p>
+            <p><img src="IRON.png"></p>
+            <p><img src="LAPIZ.png"></p>
+            <p><img src="REDSTONE.png"></p>
+            <p><img src="AMETHYST.png"></p>
+            <p><img src="GOLD.png"></p>
+            <p><img src="DIAMOND.png"></p>
+            <p><img src="EMERALD.png"></p>
+            <p><img src="NETHERITE.png"></p>
+            <p><img src="OBSIDIAN.png"></p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; おもちサーバーBeta1.7・おもちサーバーのさいとBeta3.1・おもちサーバーのでぃすこーどRelease1.4・おもちサーバーのしょっぷBeta0.1　　　　　<img src="CREATEDEVELOPER.png">
+        </div>
+    </footer>
+    <!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ご意見、ご質問</title>
+  <script>
+    function sendMail() {
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      const subject = encodeURIComponent("Feedback from " + name);
+      const body = encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message);
+
+      const mailtoLink = `mailto:Noob_0mochi@outlook.com?subject=${subject}&body=${body}`;
+      window.location.href = mailtoLink;
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <section id="contact">
+    <h1>ご意見、ご質問</h1>
+  </header>
+
+  <form onsubmit="event.preventDefault(); sendMail();">
+    <label for="name">仮のお名前「本名はお控えください」</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">メールアドレス:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="message">ご用件:</label>
+    <textarea id="message" name="message" required></textarea><br><br>
+    
+    <button type="submit">メールアプリを開く</button>
+  </form>
+</body>
+</html>
+</body>
+</html>
